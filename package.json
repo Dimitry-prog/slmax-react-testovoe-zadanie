@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"npm run server\"",
+    "next": "concurrently \"npm run server\"",
     "server": "json-server -w server/db.json -p 3030",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "next": "next dev"
+    "dev": "next dev"
   },
   "dependencies": {
     "@types/node": "20.3.1",

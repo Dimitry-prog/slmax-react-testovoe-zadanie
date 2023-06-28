@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17e4d002-52a2-4c7c-a156-96e1fac83b6f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/services/products.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(pages)/products/addProduct/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(pages)/products/addProduct/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(pages)/products/changeProduct/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(pages)/products/changeProduct/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(pages)/products/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(pages)/products/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/revalidate/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/revalidate/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ProductsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(pages)/products/components/ProductsList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/getProducts.ts" beforeDir="false" />
-    </list>
+    <list default="true" id="17e4d002-52a2-4c7c-a156-96e1fac83b6f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +75,7 @@
       <workItem from="1687948554005" duration="595000" />
       <workItem from="1687955192028" duration="4418000" />
       <workItem from="1687959765984" duration="1452000" />
-      <workItem from="1687972208162" duration="2833000" />
+      <workItem from="1687972208162" duration="3158000" />
     </task>
     <servers />
   </component>
