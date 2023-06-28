@@ -1,5 +1,5 @@
 import { ProductType } from "@/types";
-import { getProducts } from "@/services/getProducts";
+import { getProducts } from "@/services/products";
 
 const ProductsList = async () => {
   const productsData: Promise<ProductType[]> = getProducts();

@@ -1,4 +1,4 @@
-import Navbar from "@/app/components/Navbar";
+import ProductsNavbar from "@/app/(pages)/products/components/ProductsNavbar";
 
 export const metadata = {
   title: 'Products',
@@ -12,7 +12,7 @@ export default function RootLayout({
 }) {
   return (
     <>
-      <Navbar/>
+      <ProductsNavbar/>
       {children}
     </>
   )

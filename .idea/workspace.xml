@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17e4d002-52a2-4c7c-a156-96e1fac83b6f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/services/products.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(pages)/products/addProduct/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(pages)/products/addProduct/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(pages)/products/changeProduct/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(pages)/products/changeProduct/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(pages)/products/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(pages)/products/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/revalidate/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/revalidate/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/ProductsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(pages)/products/components/ProductsList.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/getProducts.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,29 +42,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "js.linters.configure.manually.selectedeslint": "true",
-    "last_opened_file_path": "D:/webWork/my_self/tests/slmax-react-testovoe-zadanie/node_modules",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "D:\\webWork\\my_self\\tests\\slmax-react-testovoe-zadanie\\node_modules\\eslint",
-    "node.js.selected.package.standard": "D:\\webWork\\my_self\\tests\\slmax-react-testovoe-zadanie\\node_modules\\standard",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "actions.on.save",
-    "ts.external.directory.path": "D:\\webWork\\my_self\\tests\\slmax-react-testovoe-zadanie\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;js.linters.configure.manually.selectedeslint&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/webWork/my_self/tests/slmax-react-testovoe-zadanie/node_modules&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;D:\\webWork\\my_self\\tests\\slmax-react-testovoe-zadanie\\node_modules\\eslint&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;D:\\webWork\\my_self\\tests\\slmax-react-testovoe-zadanie\\node_modules\\standard&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\webWork\\my_self\\tests\\slmax-react-testovoe-zadanie\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\webWork\my_self\tests\slmax-react-testovoe-zadanie\app\(pages)\products\components" />
       <recent name="D:\webWork\my_self\tests\slmax-react-testovoe-zadanie" />
       <recent name="D:\webWork\my_self\tests\slmax-react-testovoe-zadanie\app\(pages)\products" />
     </key>
@@ -77,7 +82,11 @@
       <workItem from="1687800795366" duration="2792000" />
       <workItem from="1687867971743" duration="1188000" />
       <workItem from="1687886459129" duration="2015000" />
-      <workItem from="1687889061526" duration="9109000" />
+      <workItem from="1687889061526" duration="9599000" />
+      <workItem from="1687948554005" duration="595000" />
+      <workItem from="1687955192028" duration="4418000" />
+      <workItem from="1687959765984" duration="1452000" />
+      <workItem from="1687972208162" duration="2833000" />
     </task>
     <servers />
   </component>

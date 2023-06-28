@@ -1,7 +1,4 @@
-import { getProducts } from "@/services/getProducts";
-
 export default async function Home() {
-  const products = await getProducts();
 
   return (
     <main className="p-12 flex flex-col items-center justify-between">
